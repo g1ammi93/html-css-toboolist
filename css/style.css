@@ -37,6 +37,7 @@ h1 {
     background-color: white;
     height: 60px;
     margin: 50px auto 5px auto;
+    border-radius: 10px;
 }
 
 .todo {
@@ -97,4 +98,34 @@ li {
 
 .cross {
     color: red;
+}
+
+/* Colori e Dimensioni Post-It */
+
+
+.ora {
+    background-color: orange;
+}
+
+.gre {
+    background-color: green;
+    width: 85px;
+}
+
+.lime {
+    background-color: lime;
+    width: 55px;
+}
+
+.ros {
+    background-color: pink;
+}
+
+.pur {
+    background-color: purple;
+    width: 80px;
+}
+
+.mob {
+    width: 60px;
 }
