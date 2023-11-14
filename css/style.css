@@ -32,7 +32,28 @@ h1 {
 
 .container {
     max-width: 1080px;
-    background-color: gray;
-    height: 100px;
-    margin: 50px auto;
+    background-color: white;
+    height: 60px;
+    margin: 50px auto 5px auto;
+}
+
+.todo {
+    height: 600px;
+    margin-top: 0;
+}
+
+button {
+    height: 50%;
+    width: 90px;
+    margin: 15px 0 15px 40px;
+    border-radius: 7px;
+    border-color: lightgray;
+}
+
+.task {
+    background-color: lightblue;
+}
+
+.section {
+    margin-left: 10px;
 }
