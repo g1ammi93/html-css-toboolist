@@ -30,6 +30,8 @@ h1 {
     vertical-align: middle;
 }
 
+/* Contenitore Todo List e Button */
+
 .container {
     max-width: 1080px;
     background-color: white;
@@ -40,7 +42,10 @@ h1 {
 .todo {
     height: 600px;
     margin-top: 0;
+    padding: 30px;
 }
+
+/* Button */
 
 button {
     height: 50%;
@@ -56,4 +61,22 @@ button {
 
 .section {
     margin-left: 10px;
+}
+
+/* List-Todo */
+
+ul {
+    list-style-type: none;
+    margin: 20px auto;
+}
+
+li {
+    margin: 20px auto;
+}
+
+span {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
 }
